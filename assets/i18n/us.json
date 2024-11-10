@@ -1,4 +1,5 @@
 {
+  "TITLE":"ProjectCLT - Sustainable Construction",
   "NavbarText1": "Home",
   "NavbarText2": "About",
   "NavbarText3": "Contact",
@@ -8,6 +9,6 @@
   "NavbarText7": "Logout",
   "NavbarText8": "Users",
   "TEXT1":"What is CLT?",
-  "ES": "Español",
-  "EN": "Inglés"
+  "ES": "Spanish",
+  "EN": "English"
 }
