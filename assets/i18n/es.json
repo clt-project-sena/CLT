@@ -1,14 +1,306 @@
 {
   "TITLE":"ProyectoCLT - Construcción Sostenible",
-  "NavbarText1": "Incio",
-  "NavbarText2": "Nosotros",
-  "NavbarText3": "Contacto",
-  "NavbarText4": "Acerca del CLT",
-  "NavbarText5": "Productos",
-  "NavbarText6": "Iniciar Sesión",
-  "NavbarText7": "Cerrar Sesión",
-  "NavbarText8": "Usuarios",
-  "TEXT1":"¿Qué es el CLT?",
-  "ES": "Español",
-  "EN": "Inglés"
+  "Navbar": {
+    "NavbarOptionHome": "Incio",
+    "NavbarOptionAboutUs": "Nosotros",
+    "NavbarOptionContact": "Contacto",
+    "NavbarOptionAboutCLT": "Acerca del CLT",
+    "NavbarOptionProducts": "Productos",
+    "NavbarOptionSignIn": "Iniciar Sesión",
+    "NavbarOptionManagement": {
+      "NavbarOptionManagementTitle":"Gestión",
+      "NavbarOptionProductsManagement":"Gestión de Productos",
+      "NavbarOptionUserManagement": "Gestión de Usuarios"
+    },
+    "NavbarOptionUser": {
+      "NavbarOptionUserMessage":"Bienvenido",
+      "NavbarOptionSignOut": "Cerrar Sesión"
+    },
+    "NavbarOptionTranslater":{
+      "ES":"Español",
+      "EN":"Inglés"
+    }
+  },
+  "Home":{
+    "HomeTitle":"Madera, Hogares Inteligentes, IoT y domótica",
+    "HomeSubTitle":"Proyectos ecológicos y a la vanguardia tecnológica.",
+    "HomeDescription":"Casas, paneles, vigas y demas estructuras que se puedan realizar mediante la madera.",
+    "HomeButtonMore":"Leer más",
+    "HomeCardsProducts":{
+      "Beams":{
+        "Title":"Vigas",
+        "Description":"Esta es una de las vigas con el mismo principio del CLT."
+      },
+      "HomeNumber1":{
+        "Title":"Vivienda Nº 1",
+        "Description":"Primer Vivienda con este sistema constructivo (CLT)."
+      },
+      "PanelFabrication":{
+        "Title":"Fabricación - Panel",
+        "Description":"Proceso de fabricación del panel en CLT."
+      },
+      "PanelFabrication2":{
+        "Title":"Fabricación - Panel",
+        "Description":"Proceso de fabricación del panel en CLT."
+      },
+      "OtherProducts":{
+        "Title":"Otros Productos",
+        "Description":"Escaleras realizadas con el mismo material (CLT)."
+      },
+      "FinishedPanel":{
+        "Title":"Panel Terminado",
+        "Description":"Momento final del proceso de fabricación."
+      },
+      "Span":"¡Click Aquí!"
+    },
+    "Galery":{
+      "TitleGalery":"Algunas imágenes del armado de nuestros productos"
+    }
+  },
+  "AboutUs":{
+    "Title":"Nosotros",
+    "Description":"Nuestro enfoque no se limita solo a la teoría, sino que también promovemos la experiencia práctica. Estamos comprometidos en la realización de proyectos piloto y colaborativos, donde los participantes pueden aprender de primera mano sobre la construcción en paneles CLT y experimentar los beneficios en términos de eficiencia energética, durabilidad y reducción de emisiones de carbono.",
+    "AboutProducts":{
+      "Span1":"Casas",
+      "Span2":"Vigas",
+      "Span3":"Paneles CLT"
+    },
+    "AboutUsItems":{
+      "Mission":{
+        "Title":"Misión",
+        "Description":"Nuestra misión es fomentar el conocimiento y la conciencia sobre la construcción sostenible utilizando paneles CLT para la realización de viviendas. Buscamos educar y capacitar a la comunidad sobre los beneficios ambientales, sociales y económicos de esta tecnología, promoviendo la adopción de soluciones constructivas responsables y respetuosas con el medio ambiente."
+      },
+      "Vision":{
+        "Title":"Visión",
+        "Description":"Nuestra visión es ser líderes en la difusión y promoción de la construcción en paneles CLT, transformando la manera en que se construyen las viviendas en nuestra comunidad. Queremos inspirar a arquitectos, constructores, estudiantes y la sociedad en general a adoptar esta alternativa sostenible, reconociendo su potencial para reducir la huella ecológica, mejorar la calidad de vida de las personas y promover la innovación en el sector de la construcción."
+      },
+      "Values":{
+        "Title":"Valores",
+        "ValuesItem1":{
+          "Title":"Sostenibilidad:",
+          "Description":"Estamos comprometidos a promover soluciones constructivas sostenibles que minimicen el impacto ambiental y preserven los recursos naturales."
+        },
+        "ValuesItem2":{
+          "Title":"Calidad:",
+          "Description":"Nos esforzamos por alcanzar la excelencia en todos nuestros proyectos y actividades, asegurando la máxima calidad en el diseño, construcción y uso de viviendas en paneles CLT."
+        },
+        "ValuesItem3":{
+          "Title":"Accesibilidad:",
+          "Description":"Creemos en la importancia de hacer que la construcción sostenible sea accesible para todos, promoviendo soluciones asequibles y adaptadas a diferentes contextos."
+        }
+      }
+    },
+    "AboutUsCard":{
+      "Title":"Nuestros procesos",
+      "Description":"Estos fueron algunos de los proceso que se implemnetaron al crear los paneles que tenemos."
+    },
+    "AboutUsText":"Nos complace tener a Servicio Nacional de Aprendizaje SENA como parte integral del proyecto 'Construcción de ambientes modulares y portables en madera laminada cruzada SGPS 11273-2023'. Valoramos la colaboración y la visión compartida de construir un futuro más sostenible en la industria de la construcción. A través de esto, hemos logrado impulsar el desarrollo de soluciones sostenibles y promover la adopción de prácticas responsables en toda la industria."
+  },
+  "ContactForm":{
+    "Title":"Ponte en contacto",
+    "SubTitle":"No dudes en pedir tu asesoría. ¡Estamos para servirte!",
+    "InputGroup":{
+      "Name":{
+        "Label":"Nombre",
+        "Placeholder":"Tu nombre"
+      },
+      "LastName":{
+        "Label":"Apellido",
+        "Placeholder":"Tu apellido"
+      },
+      "Email":{
+        "Label":"Correo Electrónico",
+        "Placeholder":"ejemplo@ejemplo.com"
+      },
+      "PhoneNumber":{
+        "Label":"Celular de Contacto",
+        "Placeholder":"Tu numero de contacto"
+      },
+      "Message":{
+        "Label":"Mensaje",
+        "Placeholder":"Escribe tu mensaje aqui..."
+      }
+    }
+  },
+  "AboutCLT":{
+    "Title":"¿Qué es el CLT?",
+    "DescriptionStrong":"Madera Contra Laminada o madera cruzada.",
+    "Description":"Tableros de maderas macizas, compuestas de varias capas de listones, dispuestas de forma cruzada en ángulo recto.",
+    "Companies":{
+      "Title":"Empresas destacadas del sector",
+      "ItemCompany1":{
+        "Title":"Finsa",
+        "Presence":"España, Reino Unido, Latinoamérica, Marruecos.",
+        "Description":"Se dedica a la transformación industrial de la madera y ha abierto la primera fábrica de madera contralaminada (CLT) de Galicia."
+      },
+      "ItemCompany2":{
+        "Title":"Grupo Wigo",
+        "Presence":"Letonia",
+        "Description":"Ofrece tecnología de construcción en madera avanzada y produce tableros CLT con maquinaria de fábrica de última generación controlada por ordenador."
+      },
+      "ItemCompany3":{
+        "Title":"Xilonor",
+        "Presence":"España.",
+        "Description":"Una empresa gallega que con la apertura de la primera planta de CLT en Galicia quiere impulsar el uso de este material y constituirse como una referencia para el sector de la construcción en madera de la Península Ibérica."
+      },
+      "ItemCompany4":{
+        "Title":"Egoin Wood Group",
+        "Presence":"España.",
+        "Description":"Ofrecen un amplio expertise y solvencia profesional, así como un firme compromiso con el medio ambiente, la sostenibilidad, la madera local KM0 y la economía circular."
+      },
+      "ItemCompany5":{
+        "Title":"Binderholz",
+        "Presence":"Austria.",
+        "Description":"Fabrica soluciones bien concebidas a partir de madera maciza. El tratamiento responsable de nuestra maravillosa materia prima —desde que son plantas jóvenes hasta el reciclaje completo según el principio de cero residuos— garantiza la gran calidad de los productos de madera maciza y los biocombustibles."
+      },
+      "ItemCompany6":{
+        "Title":"CROSSLAM",
+        "Presence":"Brasil.",
+        "Description":"Ofrece un panel de madera encolado en láminas que soportan grandes cargas, posibilitando la construcción de varias plantas. Contamos con maquinaria y equipos de última generación en nuestra industria, con nuestro pórtico CNC de 05 ejes, el 'estado del arte' en el procesamiento de este material, único en Latinoamérica."
+      }
+    },
+    "Advantages":"Ventajas",
+    "Background-References":{
+      "Title":"Antecedentes - Referentes",
+      "Background-ReferencesItem1":"Vigilancia tecnológica año 2018.",
+      "Background-ReferencesItem2":"El CLT fue desarrollado por el ingeniero francés Pierre Gauthier en 1947, En 1990 Universidad Técnica de Graz, Austria, inicio su desarrollo constructivo.",
+      "Background-ReferencesItem3":"Investigación sobre construcciones en madera sólida.",
+      "Background-ReferencesItem4":"Tendencias en el uso de la madera combinado con materiales alternativos.",
+      "Background-ReferencesItem5":"Análisis de tendencias tanto en mobiliario como de sistemas constructivos a nivel mundial."
+    },
+    "BuildingsCLT":{
+      "Title":"Edificaciones conocidas por hacer uso del CLT",
+      "BuildingsItem1":"Banyan Wharf, Londres.",
+      "BuildingsItem2":"Edificio Maniwa, Japón.",
+      "BuildingsItem3":"Greater London, Reino Unido.",
+      "BuildingsItem4":"Puukuokka en Finlandia."
+    },
+    "Others":{
+      "Title":"Otras edificaciones relacionadas",
+      "OthersItem1":"Edificio de 10 pisos con 80m de alto",
+      "OthersItemCountry1":"(Noruega).",
+      "OthersItem2":"Edificio Modelo 70m²",
+      "OthersItemCountry2":"(Japón).",
+      "OthersItem3":"Edificio de 9 pisos y 29 apartamentos",
+      "OthersItemCountry3":"(Londres).",
+      "OthersItem4":"Casas hasta de 139m²",
+      "OthersItemCountry4":"(Estados Unidos)."
+    }
+  },
+  "Products":{
+    "Title":"Lista de Productos",
+    "ProductsCard":{
+      "Title":"Especificaciones Del Panel:",
+      "Measurements":"Medidas (cm)",
+      "Length":"Largo:",
+      "Width":"Ancho:",
+      "Thickness":"Espesor:",
+      "WoodType":"Tipo de Madera",
+      "FrontFace":"Cara Frontal:",
+      "CenterFace":"Cara Central:",
+      "InnerFace":"Cara Interna:",
+      "GoManually":"Ir de forma manual",
+      "Or":"O"
+    },
+    "ProductsList":{
+      "Title":"Gestión de Paneles",
+      "AddButton":"Añadir Panel",
+      "table":{
+        "thead":{
+          "th":"Nº",
+          "th1":"Nombre Panel",
+          "th2":"Medidas",
+          "th3":"Lengüeta",
+          "th4":"Machimbrado",
+          "th5":"Acciones"
+        }
+      }
+    },
+    "ProductsForm":{
+      "Title1":"Agregar Panel",
+      "Title2":"Actualizar Panel",
+      "InputGroup":{
+        "Name":{
+          "Label":"Nombre del Panel",
+          "Placeholder":"Ingresa el nombre del panel"
+        },
+        "SubTitle":"Tamaño del panel en cm",
+        "Length":{
+          "Label":"Largo",
+          "Placeholder":"Ingresa el largo"
+        },
+        "Width":{
+          "Label":"Ancho",
+          "Placeholder":"Ingresa el ancho"
+        },
+        "Thickness":{
+          "Label":"Espesor",
+          "Placeholder":"Ingresa el espesor"
+        },
+        "SubTitle2":"Tipo de Madera Por Cara",
+        "FrontFace":{
+          "Label":"Cara Frontal",
+          "Placeholder":"Ingresa la cara frontal"
+        },
+        "CenterFace":{
+          "Label":"Cara Central",
+          "Placeholder":"Ingresa la cara central"
+        },
+        "InnerFace":{
+          "Label":"Cara Interna",
+          "Placeholder":"Ingresa la cara interna"
+        },
+        "Note":{
+          "Label":"Nota",
+          "Placeholder":"Ingresa un nota"
+        },
+        "NumPanel":{
+          "Label":"Número del Panel",
+          "Placeholder":"Ingresa el número del panel"
+        },
+        "SubTitle3":"Otras Características",
+        "Machimbrado":{
+          "Label":"Machimbrado",
+          "Placeholder":"Ingresa el machimbrado"
+        },
+        "Lengueta":{
+          "Label":"Lengüeta",
+          "Placeholder":"Ingresa la lengüeta"
+        },
+        "Weight":{
+          "Label":"Peso (Kg)",
+          "Placeholder":"Ingresa el peso (Kg)"
+        },
+        "ImageLabel":"Imagen",
+        "Others":{
+          "Label":"Otros (opcional)",
+          "Placeholder":"Ingresa otras características"
+        }
+      }
+    },
+    "ProductsMessage":{
+      "MessageList":"No hay Productos Registrados",
+      "PANEL_GET_ALL_FAILED":"Los paneles no se han podido traer.",
+      "PANEL_CREATED": "Panel creado correctamente.", 
+      "PANEL_UPDATED": "Panel actualizado correctamente.", 
+      "PANEL_CREATED_FAILED": "No se ha podido crear el panel, datos duplicados.", 
+      "PANEL_UPDATED_FAILED": "No se ha podido actualizar el panel", 
+      "PANEL_DELETED": "Panel eliminado correctamente.", 
+      "PANEL_DELETION_FAILED": "No se ha podido eliminar el panel."      
+    }
+  },
+  "InputValidation":{
+    "AlertMessage":"Se requiere este campo"
+  },
+  "LoginForm":{
+    "Title":"Iniciar Sesión",
+    "InputGroup":{
+      "Email":{
+        "Label":"Correo Electrónico",
+        "Placeholder":"ejemplo@ejemplo.com"
+      },
+      "PasswordLabel":"Contraseña"
+    }
+  },
+  "SendButton":"Enviar"
 }

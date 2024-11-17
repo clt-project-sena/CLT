@@ -1,14 +1,306 @@
 {
-  "TITLE":"ProjectCLT - Sustainable Construction",
-  "NavbarText1": "Home",
-  "NavbarText2": "About",
-  "NavbarText3": "Contact",
-  "NavbarText4": "About CLT",
-  "NavbarText5": "Products",
-  "NavbarText6": "Sign In",
-  "NavbarText7": "Logout",
-  "NavbarText8": "Users",
-  "TEXT1":"What is CLT?",
-  "ES": "Spanish",
-  "EN": "English"
+  "TITLE": "ProyectoCLT - Sustainable Construction",
+  "Navbar": {
+    "NavbarOptionHome": "Home",
+    "NavbarOptionAboutUs": "About Us",
+    "NavbarOptionContact": "Contact",
+    "NavbarOptionAboutCLT": "About CLT",
+    "NavbarOptionProducts": "Products",
+    "NavbarOptionSignIn": "Sign In",
+    "NavbarOptionManagement": {
+      "NavbarOptionManagementTitle": "Management",
+      "NavbarOptionProductsManagement": "Product Management",
+      "NavbarOptionUserManagement": "User Management"
+    },
+    "NavbarOptionUser": {
+      "NavbarOptionUserMessage": "Welcome",
+      "NavbarOptionSignOut": "Sign Out"
+    },
+    "NavbarOptionTranslater": {
+      "ES": "Spanish",
+      "EN": "English"
+    }
+  },
+  "Home": {
+    "HomeTitle": "Wood, Smart Homes, IoT, and Home Automation",
+    "HomeSubTitle": "Eco-friendly projects with cutting-edge technology.",
+    "HomeDescription": "Houses, panels, beams, and other structures that can be made using wood.",
+    "HomeButtonMore": "Read more",
+    "HomeCardsProducts": {
+      "Beams": {
+        "Title": "Beams",
+        "Description": "This is one of the beams based on the same CLT principle."
+      },
+      "HomeNumber1": {
+        "Title": "Home Nº 1",
+        "Description": "The first house using this constructive system (CLT)."
+      },
+      "PanelFabrication": {
+        "Title": "Panel Fabrication",
+        "Description": "The panel fabrication process using CLT."
+      },
+      "PanelFabrication2": {
+        "Title": "Panel Fabrication",
+        "Description": "The panel fabrication process using CLT."
+      },
+      "OtherProducts": {
+        "Title": "Other Products",
+        "Description": "Stairs made with the same material (CLT)."
+      },
+      "FinishedPanel": {
+        "Title": "Finished Panel",
+        "Description": "The final step of the fabrication process."
+      },
+      "Span": "Click Here!"
+    },
+    "Galery": {
+      "TitleGalery": "Some images of our product assembly process"
+    }
+  },
+  "AboutUs": {
+    "Title": "About Us",
+    "Description": "Our approach goes beyond theory, promoting practical experience. We are committed to conducting pilot and collaborative projects where participants can gain hands-on knowledge of CLT panel construction, experiencing the benefits in terms of energy efficiency, durability, and reduced carbon emissions.",
+    "AboutProducts": {
+      "Span1": "Houses",
+      "Span2": "Beams",
+      "Span3": "CLT Panels"
+    },
+    "AboutUsItems": {
+      "Mission": {
+        "Title": "Mission",
+        "Description": "Our mission is to promote knowledge and awareness about sustainable construction using CLT panels for housing development. We aim to educate and empower the community about the environmental, social, and economic benefits of this technology, encouraging the adoption of responsible and eco-friendly construction solutions."
+      },
+      "Vision": {
+        "Title": "Vision",
+        "Description": "Our vision is to be leaders in spreading and promoting CLT panel construction, transforming the way homes are built in our community. We aspire to inspire architects, builders, students, and society to adopt this sustainable alternative, recognizing its potential to reduce ecological footprints, improve quality of life, and foster innovation in the construction sector."
+      },
+      "Values": {
+        "Title": "Values",
+        "ValuesItem1": {
+          "Title": "Sustainability:",
+          "Description": "We are committed to promoting sustainable construction solutions that minimize environmental impact and preserve natural resources."
+        },
+        "ValuesItem2": {
+          "Title": "Quality:",
+          "Description": "We strive for excellence in all our projects and activities, ensuring the highest quality in the design, construction, and use of CLT panel housing."
+        },
+        "ValuesItem3": {
+          "Title": "Accessibility:",
+          "Description": "We believe in making sustainable construction accessible to everyone, promoting affordable solutions tailored to different contexts."
+        }
+      }
+    },
+    "AboutUsCard": {
+      "Title": "Our Processes",
+      "Description": "These were some of the processes implemented when creating the panels we offer."
+    },
+    "AboutUsText": "We are pleased to have the National Training Service (SENA) as an integral part of the project Construction of modular and portable environments in cross-laminated timber SGPS 11273-2023'. We value the collaboration and shared vision of building a more sustainable future in the construction industry. Through this, we have successfully driven the development of sustainable solutions and encouraged the adoption of responsible practices across the industry."
+  },
+  "ContactForm": {
+    "Title": "Get in Touch",
+    "SubTitle": "Feel free to request advice. We’re here to help!",
+    "InputGroup": {
+      "Name": {
+        "Label": "Name",
+        "Placeholder": "Your name"
+      },
+      "LastName": {
+        "Label": "Last Name",
+        "Placeholder": "Your last name"
+      },
+      "Email": {
+        "Label": "Email",
+        "Placeholder": "example@example.com"
+      },
+      "PhoneNumber": {
+        "Label": "Contact Phone",
+        "Placeholder": "Your contact number"
+      },
+      "Message": {
+        "Label": "Message",
+        "Placeholder": "Write your message here..."
+      }
+    }
+  },
+  "AboutCLT": {
+    "Title": "What is CLT?",
+    "DescriptionStrong": "Cross-laminated timber.",
+    "Description": "Solid wood boards made of several layers of slats arranged crosswise at right angles.",
+    "Companies": {
+      "Title": "Leading Companies in the Sector",
+      "ItemCompany1": {
+        "Title": "Finsa",
+        "Presence": "Spain, United Kingdom, Latin America, Morocco.",
+        "Description": "Dedicated to industrial wood processing, they have opened the first cross-laminated timber (CLT) factory in Galicia."
+      },
+      "ItemCompany2": {
+        "Title": "Grupo Wigo",
+        "Presence": "Latvia",
+        "Description": "Offers advanced wood construction technology and produces CLT boards using state-of-the-art factory machinery controlled by computers."
+      },
+      "ItemCompany3": {
+        "Title": "Xilonor",
+        "Presence": "Spain.",
+        "Description": "A Galician company aiming to drive the use of this material and become a reference in the wooden construction sector on the Iberian Peninsula."
+      },
+      "ItemCompany4": {
+        "Title": "Egoin Wood Group",
+        "Presence": "Spain.",
+        "Description": "Offers extensive expertise and professional solvency, along with a firm commitment to the environment, sustainability, local wood (KM0), and the circular economy."
+      },
+      "ItemCompany5": {
+        "Title": "Binderholz",
+        "Presence": "Austria.",
+        "Description": "Creates well-conceived solutions from solid wood. Their responsible treatment of our wonderful raw material ensures high-quality solid wood products and biofuels."
+      },
+      "ItemCompany6": {
+        "Title": "CROSSLAM",
+        "Presence": "Brazil.",
+        "Description": "Provides a laminated wood panel capable of supporting heavy loads, enabling multi-story construction. Equipped with state-of-the-art CNC technology, the industry’s cutting-edge for processing this material."
+      }
+    },
+    "Advantages": "Advantages",
+    "Background-References": {
+      "Title": "Background - References",
+      "Background-ReferencesItem1": "Technology monitoring in 2018.",
+      "Background-ReferencesItem2": "CLT was developed by French engineer Pierre Gauthier in 1947; in 1990, the Technical University of Graz, Austria, began its constructive development.",
+      "Background-ReferencesItem3": "Research on solid wood constructions.",
+      "Background-ReferencesItem4": "Trends in wood use combined with alternative materials.",
+      "Background-ReferencesItem5": "Trend analysis for both furniture and construction systems worldwide."
+    },
+    "BuildingsCLT": {
+      "Title": "Famous Buildings Using CLT",
+      "BuildingsItem1": "Banyan Wharf, London.",
+      "BuildingsItem2": "Maniwa Building, Japan.",
+      "BuildingsItem3": "Greater London, United Kingdom.",
+      "BuildingsItem4": "Puukuokka, Finland."
+    },
+    "Others": {
+      "Title": "Other Related Buildings",
+      "OthersItem1": "10-story building, 80m tall",
+      "OthersItemCountry1": "(Norway).",
+      "OthersItem2": "Model Building, 70m²",
+      "OthersItemCountry2": "(Japan).",
+      "OthersItem3": "9-story building with 29 apartments",
+      "OthersItemCountry3": "(London).",
+      "OthersItem4": "Houses up to 139m²",
+      "OthersItemCountry4": "(United States)."
+    }
+  },
+  "Products": {
+    "Title": "Product List",
+    "ProductsCard": {
+      "Title": "Panel Specifications:",
+      "Measurements": "Measurements (cm)",
+      "Length": "Length:",
+      "Width": "Width:",
+      "Thickness": "Thickness:",
+      "WoodType": "Wood Type",
+      "FrontFace": "Front Face:",
+      "CenterFace": "Center Face:",
+      "InnerFace": "Inner Face:",
+      "GoManually": "Go manually",
+      "Or": "Or"
+    },
+    "ProductsList": {
+      "Title": "Panel Management",
+      "AddButton":"Add Panel",
+      "table": {
+        "thead": {
+          "th": "No.",
+          "th1": "Panel Name",
+          "th2": "Measurements",
+          "th3": "Tongue",
+          "th4": "Tongue and Groove",
+          "th5": "Actions"
+        }
+      }
+    },
+    "ProductsForm": {
+      "Title1": "Add Panel",
+      "Title2": "Update Panel",
+      "InputGroup": {
+        "Name": {
+          "Label": "Panel Name",
+          "Placeholder": "Enter the panel name"
+        },
+        "SubTitle": "Panel size in cm",
+        "Length": {
+          "Label": "Length",
+          "Placeholder": "Enter the length"
+        },
+        "Width": {
+          "Label": "Width",
+          "Placeholder": "Enter the width"
+        },
+        "Thickness": {
+          "Label": "Thickness",
+          "Placeholder": "Enter the thickness"
+        },
+        "SubTitle2": "Wood Type by Face",
+        "FrontFace": {
+          "Label": "Front Face",
+          "Placeholder": "Enter the front face"
+        },
+        "CenterFace": {
+          "Label": "Center Face",
+          "Placeholder": "Enter the center face"
+        },
+        "InnerFace": {
+          "Label": "Inner Face",
+          "Placeholder": "Enter the inner face"
+        },
+        "Note": {
+          "Label": "Note",
+          "Placeholder": "Enter a note"
+        },
+        "NumPanel": {
+          "Label": "Panel Number",
+          "Placeholder": "Enter the panel number"
+        },
+        "SubTitle3": "Other Features",
+        "Machimbrado": {
+          "Label": "Tongue and Groove",
+          "Placeholder": "Enter the tongue and groove"
+        },
+        "Lengueta": {
+          "Label": "Tongue",
+          "Placeholder": "Enter the tongue"
+        },
+        "Weight": {
+          "Label": "Weight (Kg)",
+          "Placeholder": "Enter the weight (Kg)"
+        },
+        "ImageLabel": "Image",
+        "Others": {
+          "Label": "Others (optional)",
+          "Placeholder": "Enter other features"
+        }
+      }
+    },
+    "ProductsMessage": {
+      "MessageList": "No Products Registered",
+      "PANEL_GET_ALL_FAILED": "Panels could not be retrieved.",
+      "PANEL_CREATED": "Panel created successfully.",
+      "PANEL_UPDATED": "Panel updated successfully.",
+      "PANEL_CREATED_FAILED": "The panel could not be created, duplicate data.",
+      "PANEL_UPDATED_FAILED": "The panel could not be updated",
+      "PANEL_DELETED": "Panel deleted successfully.",
+      "PANEL_DELETION_FAILED": "The panel could not be deleted."
+    }
+  },
+  "InputValidation": {
+    "AlertMessage": "This field is required"
+  },
+  "LoginForm": {
+    "Title": "Sign In",
+    "InputGroup": {
+      "Email": {
+        "Label": "Email",
+        "Placeholder": "example@example.com"
+      },
+      "PasswordLabel": "Password"
+    }
+  },
+  "SendButton": "Send"
 }

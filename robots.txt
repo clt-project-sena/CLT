@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://clt-project-sena.github.io/CLT/sitemap-website-projectCLT.xml
